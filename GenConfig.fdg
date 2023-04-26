@@ -12,10 +12,10 @@
     "Frontend": {
       "EmberJs": {
         "EmberApp": true,
-        "EmberAddon": false,
-        "Build": false,
-        "GitClone": false,
-        "GitPush": false,
+        "EmberAddon": true,
+        "Build": true,
+        "GitClone": true,
+        "GitPush": true,
         "GhPagesPush": true,
         "EmberMetadata": false
       },
@@ -25,7 +25,7 @@
       }
     },
     "Backend": {
-      "AspNet": false,
+      "AspNet": true,
       "AspNetCore": false,
       "Java": true
     },
