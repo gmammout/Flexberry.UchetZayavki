@@ -12,15 +12,15 @@
     "Frontend": {
       "EmberJs": {
         "EmberApp": true,
-        "EmberAddon": true,
-        "Build": true,
-        "GitClone": true,
-        "GitPush": true,
+        "EmberAddon": false,
+        "Build": false,
+        "GitClone": false,
+        "GitPush": false,
         "GhPagesPush": true,
         "EmberMetadata": false
       },
       "ApacheCordova": {
-        "CordovaProject": true,
+        "CordovaProject": false,
         "BuildApp": false
       }
     },
@@ -31,9 +31,9 @@
     },
     "Docker": {
       "Dockerfile": true,
-      "DockerfileAutobuild": true,
-      "DockerBuildShellScript": true,
-      "DockerSwarm": true
+      "DockerfileAutobuild": false,
+      "DockerBuildShellScript": false,
+      "DockerSwarm": false
     },
     "Storage": {
       "Mssql": {
