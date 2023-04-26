@@ -16,7 +16,7 @@
         "Build": false,
         "GitClone": false,
         "GitPush": false,
-        "GhPagesPush": true,
+        "GhPagesPush": false,
         "EmberMetadata": false
       },
       "ApacheCordova": {
@@ -27,11 +27,11 @@
     "Backend": {
       "AspNet": true,
       "AspNetCore": false,
-      "Java": false
+      "Java": true
     },
     "Docker": {
-      "Dockerfile": true,
-      "DockerfileAutobuild": false,
+      "Dockerfile": false,
+      "DockerfileAutobuild": true,
       "DockerBuildShellScript": false,
       "DockerSwarm": false
     },
@@ -45,9 +45,9 @@
         "ConnectionString": null
       },
       "PostgreSql": {
-        "DiffSql": true,
+        "DiffSql": false,
         "FullSql": true,
-        "LiquibaseSql": true,
+        "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
         "ConnectionString": null
