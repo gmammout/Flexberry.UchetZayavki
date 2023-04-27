@@ -32,13 +32,13 @@
     "Docker": {
       "Dockerfile": true,
       "DockerfileAutobuild": false,
-      "DockerBuildShellScript": true,
+      "DockerBuildShellScript": false,
       "DockerSwarm": false
     },
     "Storage": {
       "Mssql": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
